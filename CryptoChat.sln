@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoChat", "CryptoChat\CryptoChat.csproj", "{DE9037CC-5AC5-4972-A7FC-07994DC2E963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolykCrypto", "PolykCrypto\PolykCrypto.csproj", "{BF897DF6-EAF1-42DC-8A6F-B1EF0599798D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE9037CC-5AC5-4972-A7FC-07994DC2E963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE9037CC-5AC5-4972-A7FC-07994DC2E963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE9037CC-5AC5-4972-A7FC-07994DC2E963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE9037CC-5AC5-4972-A7FC-07994DC2E963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF897DF6-EAF1-42DC-8A6F-B1EF0599798D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF897DF6-EAF1-42DC-8A6F-B1EF0599798D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF897DF6-EAF1-42DC-8A6F-B1EF0599798D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF897DF6-EAF1-42DC-8A6F-B1EF0599798D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
