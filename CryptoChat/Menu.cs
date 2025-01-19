@@ -112,7 +112,7 @@ namespace CryptoChat
             var signature = Rsa.SignData(messageHash, _rsaKeys.privateKey);
             var verifySign = Rsa.VerifySignature(messageHash, signature, _rsaKeys.publicKey);
 
-            Messages.Add((sender, encryptedText, plainMessage, signature.ToString("X") + " " + verifySign));
+            Messages.Add((sender, encryptedText, aesMessage.Decrypt(_aesKey).ToPlainText(), signature.ToString("X") + " " + verifySign));
             _totalMessages++;
 
             DisplayHeader();
